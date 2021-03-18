@@ -3,23 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_lesson_1_1">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.androidstudy.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:id="@+id/nav_lesson_1_1"
+        android:name="com.example.androidstudy.ui.lesson_1_1.LessonFragment_1_1"
+        android:label="@string/menu_lesson_1_1"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.androidstudy.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:id="@+id/nav_lesson_1_2"
+        android:name="com.example.androidstudy.ui.lesson_1_2.LessonFragment_1_2"
+        android:label="@string/menu_lesson_1_2"
         tools:layout="@layout/fragment_gallery" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.androidstudy.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 </navigation>

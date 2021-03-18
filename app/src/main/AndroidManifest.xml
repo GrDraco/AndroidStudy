@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidStudy">
         <activity
-            android:name=".MainActivity"
+            android:name=".LessonActivity_1_1"
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidStudy.NoActionBar">
             <intent-filter>

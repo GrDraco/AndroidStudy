@@ -1,4 +1,4 @@
-package com.example.androidstudy.ui.gallery
+package com.example.androidstudy.ui.lesson_1_2
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.androidstudy.R
 
-class GalleryFragment : Fragment() {
+class LessonFragment_1_2 : Fragment() {
 
-    private lateinit var galleryViewModel: GalleryViewModel
+    private lateinit var galleryViewModel: LessonViewModel_1_2
 
     override fun onCreateView(
             inflater: LayoutInflater,
@@ -20,7 +20,7 @@ class GalleryFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
         galleryViewModel =
-                ViewModelProvider(this).get(GalleryViewModel::class.java)
+                ViewModelProvider(this).get(LessonViewModel_1_2::class.java)
         val root = inflater.inflate(R.layout.fragment_gallery, container, false)
         val textView: TextView = root.findViewById(R.id.text_gallery)
         galleryViewModel.text.observe(viewLifecycleOwner, Observer {
