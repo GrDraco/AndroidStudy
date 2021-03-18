@@ -9,12 +9,12 @@
         android:id="@+id/nav_lesson_1_1"
         android:name="com.example.androidstudy.ui.lesson_1_1.LessonFragment_1_1"
         android:label="@string/menu_lesson_1_1"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_lesson_1_1" />
 
     <fragment
         android:id="@+id/nav_lesson_1_2"
         android:name="com.example.androidstudy.ui.lesson_1_2.LessonFragment_1_2"
         android:label="@string/menu_lesson_1_2"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_lesson_1_2" />
 
 </navigation>

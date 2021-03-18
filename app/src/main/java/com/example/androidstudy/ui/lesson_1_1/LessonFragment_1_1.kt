@@ -21,8 +21,8 @@ class LessonFragment_1_1 : Fragment() {
     ): View? {
         homeViewModel =
                 ViewModelProvider(this).get(LessonViewModel_1_1::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
+        val root = inflater.inflate(R.layout.fragment_lesson_1_1, container, false)
+        val textView: TextView = root.findViewById(R.id.lesson_1_1_title)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
