@@ -17,4 +17,10 @@
         android:label="@string/menu_lesson_1_2"
         tools:layout="@layout/fragment_lesson_1_2" />
 
+    <fragment
+        android:id="@+id/nav_calc"
+        android:name="com.example.androidstudy.ui.lesson_2.CalcFragment"
+        android:label="@string/menu_calc"
+        tools:layout="@layout/fragment_calc" />
+
 </navigation>
